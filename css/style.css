@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* shared style */
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.m-width{
+ max-width: 1140px;
+ margin: 0 auto;
+}
+
+.btn-primary{
+  background-color: #F15B22;
+  font-size:20 ;
+  font-weight: 500;
+  padding: 21px 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* banner */
+
+header{
+  
+  
+  
+
+}
+.banner{
+  text-align: end;
+  padding:216px 230px 167px;
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.banner h1{
+  font-size:65px ;
+  font-weight: bold;
+  
+}
+.banner p {
+  color: #444343;
+  font-size: 1rem ;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* last-year */
+
+.last-year{
+  display: flex;
+  align-items: center;
+  gap: 87px ;
+  margin-top: 130px;
+}
+.last-year-content-1{
+  text-align: start;
+}
+.last-year-content-1 h3{
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.last-year-content-1 p{
+  font-size: 16px;
+  color: #444343;
+ 
+}
+.last-year-content-1 .list{
+  
+  margin-top: 16px;
+}
